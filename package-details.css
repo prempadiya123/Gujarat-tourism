@@ -1,0 +1,74 @@
+/*******************************/
+/********** package CSS **********/
+/*******************************/
+ /* .package {
+    position: relative;
+    width: 100%;
+    padding: 45px 0;
+}  */
+
+.package .section-header {
+    margin-bottom: 30px;
+}
+
+ /* .package .package-img {
+    padding: 1px;
+
+}  */
+.package .package-img img {
+    height: 380px;
+    width: 430px; 
+    border-radius:  50px 3px;
+    border: 4px solid black;  
+
+   
+}
+
+.package .package-text p {
+    font-size: 15px;
+    text-align:justify;
+}
+
+.package .package-text a.btn {
+    position: relative;
+    margin-top: 15px;
+    padding: 15px 35px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #aa9166;
+    border: 2px solid #aa9166;
+    border-radius: 0;
+    background: #121518;
+    transition: .3s;
+}
+
+.package .package-text a.btn:hover {
+    color: #121518;
+    background: #aa9166;
+}
+
+/* @media (max-width: 767.98px) {
+    .package .package-img {
+        margin-bottom: 30px;
+        height: auto;
+    }
+} */
+ h5{
+    font-family: 'EB Garamond', serif;
+    font-style: italic;
+    color: #121518;
+    font-size: 30px;
+}
+.table h1 {
+    color: #aa9166;
+    text-align:center;
+}
+.table th{
+    color: #aa9166;
+}
+.table td{
+    color: #404040;
+    font-size: 30px;
+}

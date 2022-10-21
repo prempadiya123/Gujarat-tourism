@@ -1,0 +1,83 @@
+
+/******* city details *********/
+/*--------------------------------------------------------------
+# Sections
+--------------------------------------------------------------*/
+/* Sections Common
+--------------------------------*
+section {
+    overflow: hidden;
+  }
+  
+  .section-title {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+  }
+  
+  .section-description {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-title-divider {
+    width: 50px;
+    height: 3px;
+    background: #03C4EB;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  
+  /* Get Started Section
+  --------------------------------*/
+  #about {
+    background: #fff;
+    padding: 30px 0;
+
+  }
+  
+  #about .about-img {
+    overflow: hidden;
+  }
+  
+  #about .about-img img {
+    max-width: 100%;
+    border-radius: 5%;
+    height: 430px;
+  }
+  
+  @media (max-width: 768px) {
+    #about .about-img {
+       height: auto; 
+
+    }
+  
+    #about .about-img img {
+      margin-left: 0;
+      padding-bottom: 30px;
+    }
+  }
+  
+  #about .about-content {
+    background: #fff;
+  }
+  
+  #about .about-title {
+    color: #333;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  
+  #about .about-text {
+    line-height: 26px;
+    margin-bottom: 15px;
+    text-align: justify;
+
+  }
+  
+  #about .about-text:last-child {
+    margin-bottom: 0;
+  }
+
